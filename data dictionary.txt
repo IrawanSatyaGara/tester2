@@ -1,0 +1,47 @@
+
+Dataset Census 2011 berisi informasi demografis dan sosial ekonomi berdasarkan hasil sensus penduduk India tahun 2011. Data ini disajikan dalam bentuk tabel dengan berbagai kolom yang merepresentasikan variabel-variabel penting terkait populasi, pendidikan, pekerjaan, dan kategori sosial masyarakat. Penjelasan setiap kolom adalah sebagai berikut:
+
+1. District_code
+   Kolom ini menunjukkan kode numerik unik yang diberikan kepada setiap distrik dalam suatu negara bagian. Kode ini digunakan untuk mengidentifikasi wilayah administratif secara sistematis dan mencegah terjadinya duplikasi nama wilayah.
+
+2. State_name
+   Menunjukkan nama negara bagian atau Union Territory di India. Variabel ini berfungsi untuk mengelompokkan distrik berdasarkan wilayah administratif tingkat provinsi.
+
+3. District_name
+   Menyajikan nama distrik dalam suatu negara bagian. Distrik merupakan unit administratif utama yang menjadi dasar pengumpulan data sensus.
+
+4. Population
+   Kolom ini berisi jumlah total penduduk yang tinggal di distrik tersebut pada tahun 2011. Nilai ini merupakan hasil penjumlahan antara populasi pria dan wanita.
+
+5. Male dan Female
+   Kedua kolom ini menjelaskan distribusi populasi berdasarkan jenis kelamin. Kolom Male menunjukkan jumlah penduduk pria, sedangkan kolom Female menunjukkan jumlah penduduk wanita.
+
+6. Literate, Male_Literate, dan Female_Literate
+   Kolom-kolom ini menggambarkan jumlah penduduk yang dianggap melek huruf, yaitu mereka yang dapat membaca dan menulis dalam bahasa apa pun. Data ini juga dibedakan menurut jenis kelamin untuk melihat kesenjangan literasi antara pria dan wanita.
+
+7. SC (Scheduled Castes) dan ST (Scheduled Tribes)
+   Kolom SC berisi jumlah penduduk yang termasuk dalam kategori Scheduled Castes, sedangkan ST menunjukkan jumlah penduduk yang tergolong Scheduled Tribes. Keduanya merupakan klasifikasi sosial resmi di India yang digunakan untuk tujuan kebijakan afirmatif dan penelitian sosial.
+
+8. Male_SC, Female_SC, Male_ST, dan Female_ST
+   Variabel-variabel ini merinci jumlah penduduk pria dan wanita dalam kategori SC dan ST. Informasi ini penting untuk menganalisis dimensi gender dalam struktur sosial masyarakat.
+
+9. Workers, Male_Workers, dan Female_Workers
+   Kolom-kolom ini menunjukkan jumlah penduduk yang bekerja, baik penuh waktu maupun paruh waktu, pada saat sensus dilakukan. Data ini digunakan untuk mengukur tingkat partisipasi tenaga kerja dan perbedaan gender dalam aktivitas ekonomi.
+
+10. Hindus, Muslims, Christians, Sikhs, Buddhists, dan Jains
+    Variabel-variabel ini mencerminkan distribusi penduduk berdasarkan agama. Setiap kolom menunjukkan jumlah penganut masing-masing agama di suatu distrik. Data ini membantu analisis demografis dan keberagaman keagamaan.
+
+11. Secondary_Education, Higher_Education, dan Graduate_Education
+    Kolom-kolom ini memberikan gambaran tentang tingkat pendidikan penduduk.
+
+    * Secondary_Education mencakup mereka yang menyelesaikan pendidikan menengah.
+    * Higher_Education menunjukkan individu yang menempuh pendidikan di atas tingkat menengah.
+    * Graduate_Education mencakup penduduk yang telah memperoleh gelar universitas atau diploma tinggi.
+
+12. Age_Group_0_29, Age_Group_30_49, dan Age_Group_50+
+    Ketiga kolom ini mengelompokkan populasi berdasarkan kelompok usia. Pembagian ini membantu analisis struktur umur penduduk dan potensi produktivitas tenaga kerja:
+
+    * Age_Group_0_29 mewakili kelompok usia muda.
+    * Age_Group_30_49 mencerminkan usia produktif utama.
+    * Age_Group_50+ menunjukkan kelompok usia lanjut.
+
